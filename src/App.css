@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+*{
+  color: white;
+}
+footer{
+  background-color: #021827;
+  height: 10vh;
+  margin: 0;
+}
+
+/* estilos contenedor global */
+#fullcont{
+  padding: 0;
+  margin: 0;
+}
+#btnadd{
+  background-color: #44D9E6;  
+  margin-left: 40%;
+}
+#btnsub{
+  background-color: #44D9E6;
+  border: none;
+  margin-left: 27%;
+  border-radius: 5px;
+  padding: 3%;
+}
+
+#logbtn{
+  background-color:#0373AA;
+}
+
+#navbar a{
+  color:white;
+}
+
+
+/* estilos navbar */
+.navbar{
+  background-color: #021827;
+  /* background: #02111D;  */
+  /* background: -webkit-linear-gradient(to right, #02111D, #037BB5, #02111D);   */
+  /* background: linear-gradient(to right, #02111D, #037BB5, #02111D);  */
+  margin: 0;
+  padding: 0;
+} 
+.navbar-collapse{
+    /* padding-left: 65%; */
+}
+img{
+  width: 10%;
+
+}
+
+.playlist{
+  display: inline-block;
+  width: 25%;
+}
+
+.playlist-form{
+  padding: 5%;
+  border:none;
+}
+
+#contsongs{
+  margin:0;
+}
+.songs-style{
+  /* border: 1px solid black; */
+  border-radius:5px;
+  background-color: rgba(5, 8, 34, 0.7); 
+  display: inline-block;
+  margin:0;
+  /* width: 30%; */
+  
+}
+.title-song{
+  background-color: rgba(6,55,73,0.5);
+  margin-bottom: 3%;
+
+}
+.playlist-form{
+  border-radius: 3%;
+  background-color: rgba(5, 8, 34, 0.7); 
+  border: none;
+}
+
+.row{
+  background-image: url("https://images.unsplash.com/photo-1487954152950-e0584673b7f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aeb893424ca46878c0465e1fbaf120ca&auto=format&fit=crop&w=750&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+.form-control{
+  
+}
